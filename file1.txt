@@ -1,1 +1,39 @@
 Lets start with Git and GitHub
+
+
+step 1: clone the repository from the github 
+			> git clone https://github.com/nageshthakre11/nrt_1.git
+
+step 2: create own branch 
+			> git branch nrt_branch_1
+			
+step 3: create new file and update the changes in that file 
+			> touch 'new_file1.txt'
+
+step 4: add that updated file to the stagging area
+			> git add ./<filename>
+
+step 5: review and do the commit of the added file 
+			> git status
+			> git commit -m "message of commit"
+
+step 6: push the commited branch data to the github
+			> git push origin nrt_branch_1
+
+step 7: after pushing , raise a merge request from the git hub, approve it and merge it 
+			> 
+
+step 8: now you can find the approved file in the github acct 
+			>
+
+step 9: pull the updated new file from the git hub to the master/main using pull req
+			> git pull origin
+
+------------------------------JUST FOR PRACTICE: CREATED NEW BRANCH AND UPDATED THE NEW CHNAGES IN TEXT FILE -------------------------------------------
+
+FALLOW THE SAME PROCESS ABOVE FROM NRT_BRANCH_2 
+
+obeserving the same changes in the all branch 
+
+
+new chnages are made from nrt_branch_1
